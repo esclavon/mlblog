@@ -1,0 +1,88 @@
+{
+  "version" : "1.0",
+  "rowId" : "id",
+  "rowWeight" : null,
+  "targetAttributeName" : "fail2pay",
+  "dataFormat" : "CSV",
+  "dataFileContainsHeader" : true,
+  "attributes" : [ {
+    "attributeName" : "id",
+    "attributeType" : "CATEGORICAL"
+  }, {
+    "attributeName" : "term",
+    "attributeType" : "CATEGORICAL"
+  }, {
+    "attributeName" : "installment",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "grade",
+    "attributeType" : "CATEGORICAL"
+  }, {
+    "attributeName" : "sub_grade",
+    "attributeType" : "CATEGORICAL"
+  }, {
+    "attributeName" : "emp_length",
+    "attributeType" : "CATEGORICAL"
+  }, {
+    "attributeName" : "home_ownership",
+    "attributeType" : "CATEGORICAL"
+  }, {
+    "attributeName" : "annual_inc",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "purpose",
+    "attributeType" : "CATEGORICAL"
+  }, {
+    "attributeName" : "zip_code",
+    "attributeType" : "CATEGORICAL"
+  }, {
+    "attributeName" : "addr_state",
+    "attributeType" : "CATEGORICAL"
+  }, {
+    "attributeName" : "dti",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "delinq_2yrs",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "earliest_cr_line",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "inq_last_6mths",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "mths_since_last_delinq",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "mths_since_last_record",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "open_acc",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "pub_rec",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "revol_bal",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "revol_util",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "total_acc",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "collections_12_mths_ex_med",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "mths_since_last_major_derog",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "delinq_amnt",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "fail2pay",
+    "attributeType" : "BINARY"
+  } ],
+  "excludedAttributeNames" : [ ]
+}
